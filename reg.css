@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: rgb(213, 223, 223);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    float: right;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.para{
+    background-color: rgba(5, 5, 32, 0.2);
+    width: 25%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 30px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.con{
+    padding-bottom: 15px;
+    padding-right: 10px;
+
+}
+.container{
+         margin-top: 20px;
+         width: 20%;
+         height: 25%;
+         padding: 30px;
+         margin-right: 10px;
+         margin-left: 10px;
+         margin-top: 20px;
+         background-color: rgb(168, 93, 18);
+         box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.5);
+         float: right;
+}
+
+input[type="text"],
+input[type="password"]{
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: wheat;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    background-color:#455;
+    color: aliceblue;
+    outline: none;
+}
+
+.registerbtn{
+    background-color: rgb(7, 98, 126);
+    color:whitesmoke;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.registerbtn:hover{
+    opacity: 1;
+}
